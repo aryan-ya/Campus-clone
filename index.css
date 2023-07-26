@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Wix Madefor Display', sans-serif;
+ 
+  /* *****************navbar*********************** */ 
+
+}
+.content-item {
+  display: none;
+  background-color: white;
+  color: grey;
+ height: 400px;
+
+
+}
+
+.content-item.active {
+  display: block;
+}
+ .contt{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 200px  450px;
+}
+
+
+.navbar{
+    
+     display: grid;
+     grid-template-columns: 25% 40% 35%;
+     height: 70px;
+   
+     align-items: center;
+        
+}
+
+ul{
+    
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    
+  
+    
+
+}.navv{
+    height: 180px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+}
+
+
+
+.social{
+   position: relative;
+   left: 100px;
+}.search{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border: none; 
+    /* overflow: hidden; */
+    
+}
+ul li{
+    float: right;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+/* li:hover{
+    text-decoration: underline;
+    color: maroon;
+    cursor: pointer;
+} */
+
+
+
+.secnav li {
+  cursor: pointer;
+  padding: 12px;
+}
+
+
+
+
+
+.logo{
+   padding-left: 220px;
+   height: 30px;
+}.hrr{
+    background-color: grey;
+    height: 1px;
+    width: 100%;
+}i{ 
+   
+    color: rgba(0, 0, 0, 0.701);
+}.secnav{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}.slidecontainer{
+    margin-top: 20px;
+}.imageslide{
+    margin-top: 95px;
+}.buy{
+    text-align: center;
+}.FootwearOnline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.prev, .next {
+  
+    top: 100%;
+    /* transform: translateY(0); */
+    width: auto;
+    padding: 16px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+
+
+  /* ********************slider************************** */
+  a{
+    text-decoration: none;
+  }
+  .slider{
+ 
+    
+    width: 350px;
+    overflow: hidden;
+
+  }.product-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    box-sizing: border-box;
+  }.product-name{
+    display: flex;
+    flex-direction: column;
+  }.product-name a{
+    color: grey;
+    margin: 50px 0px;
+    font-weight: bolder;
+
+  }.slider{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    
+  }
+   
+  .image{
+   
+  
+    transition: translateX(-95%);
+
+   object-fit: cover;
+   padding-right: 0px;
+    position: relative;
+    height: 550px; 
+     width: 350px;  
+    border-color: black;
+     margin-top: 50px; 
+     /* overflow: hidden;  */
+   
+  }.image:hover{
+    cursor: pointer;
+  }
+  
+  .btn{
+    margin: 20px; 
+    position: absolute;
+    left: 5px; 
+    border: none;
+     top: 245px;
+    padding: 5px 80px 5px 80px;
+   background-color:white;
+   color: white;
+    
+  
+  }.prev{
+    color:pink;
+  }.next{
+    color: pink;
+  }
+
+
+  
+  .btn:hover{
+  
+    border-color:grey;
+    cursor: pointer;
+    border: 0.2px solid grey;
+    color: grey;
+
+    
+  }a{
+   
+    color: grey;
+
+  }#iii{
+    padding-left: 170px;
+  }.bttn{
+    
+    padding: 5px 10px 5px 10px;
+    background-color: pink;
+    border: none;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+
+  }.fourimagee{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+
+/* shoes */
+
+.shoes{
+  
+  display: flex;
+ text-align: center;
+ justify-content: center;
+}.headings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.hide{
+  display: none;
+}li:hover + .hide{
+  display: block;
+}.shoestrack{
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: 50% 50%
+  ;
+ 
+ 
+}.shoestra{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.kn{
+  padding-left: 50px;
+}.scandals{
+  margin-top: 70px;
+  background-color: #F3E8FF;
+  height: 700px;
+  width: 100%;
+}.knn{
+  padding-left: 20px;
+  font-size: 30px;
+}.knnn{
+  padding-left: 20px;
+  font-size: 20px;
+  color: grey;
+}.scandals1{
+  margin-top: 185px;
+  z-index: 1;
+  position: relative;
+  left: 60px;
+ 
+}.scandals2{
+   margin-top: 120px; 
+}.scandalss{
+   display: flex;
+ 
+  margin-top: 50px;
+}.scandalsbtn{
+  padding-left: 120px;
+  margin-top: 150px;
+}.scan{
+  font-size: 35px;
+}.scann{
+  margin-top: 15px;
+  font-size: 15px;
+}.scannn{
+  margin-top: 15px;
+ background-color: black;
+ color: white;
+  padding: 10px 20px 10px 20px;
+  border: none;
+}.scannn:hover{
+   background-color: maroon;
+   cursor: pointer;
+   transition: 1s;
+}#heart.filled {
+  background-color: red;
+  box-shadow: inset 0 0 0 50px red;
+}#iii.filled{
+  background-color: red;
+  box-shadow: inset 0 0 0 50px red;
+}.fa-regularfilled{
+  background-color: red;
+  box-shadow: inset 0 0 0 50px red;
+}
+
+
+
+
+.videoes{
+ 
+  height: 500px;
+  width: 100%;
+}#Men:hover{
+  content :"nasmreeee0";
+}       
